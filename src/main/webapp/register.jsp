@@ -8,15 +8,15 @@
 </head>
 <body>
 	<form action="RegisterServlet" method="Post">
-		Name: <input type="text" name="userName"><br>
-		Password: <input type="password" name="password"><br>
-		Email: <input type="text" name="email"><br>
+		Name: <input id="name-field" type="text" name="userName"><br>
+		Password: <input id="password-field" type="password" name="password"><br>
+		Email: <input id="email-field" type="text" name="email"><br>
 		Language: <select name="language">
 				<option>English</option>
 				<option>Spanish</option>
 				<option>French</option>
 		</select>
-		<input type="submit" value = "Call Servlet" />
+		<input id="submit-button" type="submit" value = "Call Servlet" />
 	
 	</form>
 

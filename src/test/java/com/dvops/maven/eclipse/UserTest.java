@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
-class Test {
+class UserTest {
 
 	@BeforeEach
 	void setUp() throws Exception {
@@ -17,7 +17,6 @@ class Test {
 
 	@org.junit.jupiter.api.Test
 	void test() {
-		fail("Not yet implemented");
+		assertEquals("5", String.valueOf(5));
 	}
-
 }

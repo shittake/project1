@@ -13,6 +13,12 @@
     <junit-jupiter.groupId>org.junit.jupiter</junit-jupiter.groupId>
     <junit-jupiter.artifactId>junit-jupiter</junit-jupiter.artifactId>
     <junit-jupiter.version>5.11.4</junit-jupiter.version>
+    <selenium.groupId>org.seleniumhq.selenium</selenium.groupId>
+    <selenium.artifactId>selenium-java</selenium.artifactId>
+    <selenium.version>4.31.0</selenium.version>
+    <testng.groupId>org.testng</testng.groupId>
+    <testng.artifactId>testng</testng.artifactId>
+    <testng.version>7.11.0</testng.version>
   </properties>
   
   <dependencies>
@@ -22,6 +28,16 @@
         <version>${junit-jupiter.version}</version>
         <scope>test</scope>
       </dependency>
+      <dependency>
+		  <groupId>${selenium.groupId}</groupId>
+		  <artifactId>${selenium.artifactId}</artifactId>
+		  <version>${selenium.version}</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>${testng.groupId}</groupId>
+		  <artifactId>${testng.artifactId}</artifactId>
+		  <version>${testng.version}</version>
+	  </dependency>
 	  <dependency>
 		  <groupId>javax.servlet</groupId>
 		  <artifactId>javax.servlet-api</artifactId>
@@ -59,6 +75,11 @@
        <plugin>
          <artifactId>maven-surefire-plugin</artifactId>
          <version>3.3.0</version>
+         <configuration>
+			 <suiteXmlFiles>
+				 <suiteXmlFile>testng.xml</suiteXmlFile>
+			 </suiteXmlFiles>
+		 </configuration>
        </plugin>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>

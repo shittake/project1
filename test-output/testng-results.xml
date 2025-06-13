@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-13T17:23:27 SGT" name="Default suite" finished-at="2025-06-13T17:23:30 SGT" duration-ms="2814">
+    <groups>
+    </groups>
+    <test started-at="2025-06-13T17:23:27 SGT" name="Default test" finished-at="2025-06-13T17:23:30 SGT" duration-ms="2814">
+      <class name="com.dvops.maven.eclipse.SoftwareTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.dvops.maven.eclipse.SoftwareTest@247310d0]" started-at="2025-06-13T17:23:27 SGT" name="beforeTest" finished-at="2025-06-13T17:23:29 SGT" duration-ms="1675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="checkWebpageTitle()[pri:0, instance:com.dvops.maven.eclipse.SoftwareTest@247310d0]" started-at="2025-06-13T17:23:29 SGT" name="checkWebpageTitle" finished-at="2025-06-13T17:23:30 SGT" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWebpageTitle -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.dvops.maven.eclipse.SoftwareTest@247310d0]" started-at="2025-06-13T17:23:30 SGT" name="afterTest" finished-at="2025-06-13T17:23:30 SGT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.dvops.maven.eclipse.SoftwareTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
