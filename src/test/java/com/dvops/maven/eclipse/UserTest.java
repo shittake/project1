@@ -17,6 +17,6 @@ class UserTest {
 
 	@org.junit.jupiter.api.Test
 	void test() {
-		assertEquals("5", String.valueOf(5));
+		assertEquals("5", String.valueOf(4));
 	}
 }
